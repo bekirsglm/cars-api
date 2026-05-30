@@ -57,23 +57,30 @@ exports.deleteCar = (req, res) => {
 };
 
 // Bir aracı güncelle:
+// Bir aracı güncelleme fonksiyonu
 exports.updateCar = (req, res) => {
-  // isteğin body kısmındaki güncellenicek değerleri al
+
+  // 1. Client'tan gelen güncellenecek veriler
+  // Örnek: { renk: "Kırmızı", yil: 2000 }
   const updatedData = req.body;
 
-  // aracın güncel değerlerine sahip yeni bir nesne oluştur
-  const updatedCar = { ...req.car, ...updatedData };
+  // 2. Mevcut araç (middleware'den geliyor: req.car)
+  const currentCar = req.car;
 
-  // güncellenicek elemanın sırasını bul
+  // 3. Eski araç bilgileri ile yeni gelen bilgileri birleştir
+  // Spread operator (...) ile eski veriyi koruyup yeni veriyi üstüne yazıyoruz
+  const updatedCar = { ...currentCar, ...updatedData };
+
+  // 4. Güncellenmiş aracın dizideki index'ini bul
   const index = cars.findIndex((car) => car.id === updatedCar.id);
 
-  // dizideki eski aracın yerine yeni aracı koy
+  // 5. Eski aracı diziden silip yerine yenisini koy
   cars.splice(index, 1, updatedCar);
 
-  // json dosyasını güncelle
+  // 6. JSON dosyasını güncelle (kalıcı hale getir)
   write(cars);
 
-  // client'a cevap gönder
+  // 7. Client'a cevap gönder
   res.status(200).json({
     message: "Araç güncellendi",
     car: updatedCar,

@@ -1,17 +1,5 @@
 [
   {
-    "id": "1",
-    "marka": "Toyota",
-    "model": "Corolla",
-    "yıl": 2022,
-    "renk": "Siyah",
-    "fiyat": 15000,
-    "kilometre": 45000,
-    "yakıt_türü": "Benzin",
-    "vites": "Otomatik",
-    "durum": "Kullanılmış"
-  },
-  {
     "id": "2",
     "marka": "Honda",
     "model": "Civic",
@@ -108,15 +96,15 @@
     "durum": "Kullanılmış"
   },
   {
-    "id": "10",
-    "marka": "Renault",
-    "model": "Megane",
-    "yıl": 2022,
-    "renk": "Beyaz",
-    "fiyat": 36000,
-    "kilometre": 22000,
-    "yakıt_türü": "Dizel",
+    "marka": "Deneme",
+    "model": "i30",
+    "yıl": 2025,
+    "renk": "pembe",
+    "fiyat": 25000,
+    "kilometre": 5000,
+    "yakıt_türü": "Benzin",
     "vites": "Otomatik",
-    "durum": "Kullanılmış"
+    "durum": "Sıfır",
+    "id": "15"
   }
 ]
