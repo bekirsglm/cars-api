@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "marka": "Toyota",
+    "model": "Corolla",
+    "yıl": 2022,
+    "renk": "Siyah",
+    "fiyat": 15000,
+    "kilometre": 45000,
+    "yakıt_türü": "Benzin",
+    "vites": "Otomatik",
+    "durum": "Kullanılmış"
+  },
+  {
+    "id": "2",
+    "marka": "Honda",
+    "model": "Civic",
+    "yıl": 2023,
+    "renk": "Kırmızı",
+    "fiyat": 24000,
+    "kilometre": 30000,
+    "yakıt_türü": "Benzin",
+    "vites": "Otomatik",
+    "durum": "Kullanılmış"
+  },
+  {
+    "id": "3",
+    "marka": "Mercedes-Benz",
+    "model": "E-Class",
+    "yıl": 2019,
+    "renk": "Mavi",
+    "fiyat": 35000,
+    "kilometre": 30000,
+    "yakıt_türü": "Benzin",
+    "vites": "Otomatik",
+    "durum": "Kullanılmış"
+  },
+  {
+    "id": "4",
+    "marka": "Audi",
+    "model": "A4",
+    "yıl": 2023,
+    "renk": "Kırmızı",
+    "fiyat": 45000,
+    "kilometre": 0,
+    "yakıt_türü": "Benzin",
+    "vites": "Manuel",
+    "durum": "Yeni"
+  },
+  {
+    "id": "5",
+    "marka": "BMW",
+    "model": "320i",
+    "yıl": 2021,
+    "renk": "Gri",
+    "fiyat": 38000,
+    "kilometre": 52000,
+    "yakıt_türü": "Dizel",
+    "vites": "Otomatik",
+    "durum": "Kullanılmış"
+  },
+  {
+    "id": "6",
+    "marka": "Hyundai",
+    "model": "i20",
+    "yıl": 2015,
+    "renk": "Siyah",
+    "fiyat": 25000,
+    "kilometre": 41000,
+    "yakıt_türü": "Benzin",
+    "vites": "Otomatik",
+    "durum": "Kullanılmış"
+  },
+  {
+    "id": "7",
+    "marka": "Hyundai",
+    "model": "i30",
+    "yıl": 2015,
+    "renk": "Beyaz",
+    "fiyat": 27000,
+    "kilometre": 39000,
+    "yakıt_türü": "Benzin",
+    "vites": "Manuel",
+    "durum": "Kullanılmış"
+  },
+  {
+    "id": "8",
+    "marka": "Volkswagen",
+    "model": "Passat",
+    "yıl": 2020,
+    "renk": "Gümüş",
+    "fiyat": 42000,
+    "kilometre": 28000,
+    "yakıt_türü": "Dizel",
+    "vites": "Otomatik",
+    "durum": "Kullanılmış"
+  },
+  {
+    "id": "9",
+    "marka": "Ford",
+    "model": "Focus",
+    "yıl": 2021,
+    "renk": "Lacivert",
+    "fiyat": 31000,
+    "kilometre": 35000,
+    "yakıt_türü": "Benzin",
+    "vites": "Manuel",
+    "durum": "Kullanılmış"
+  },
+  {
+    "id": "10",
+    "marka": "Renault",
+    "model": "Megane",
+    "yıl": 2022,
+    "renk": "Beyaz",
+    "fiyat": 36000,
+    "kilometre": 22000,
+    "yakıt_türü": "Dizel",
+    "vites": "Otomatik",
+    "durum": "Kullanılmış"
+  }
+]
